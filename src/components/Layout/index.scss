@@ -1,0 +1,20 @@
+.header{
+    position:fixed;
+    left:70px;
+    width:calc(100% - 60px);
+    top:0;
+}
+.footer{
+    position:fixed;
+    left:70px;
+    width:calc(100% - 60px);
+    bottom:0;
+}
+
+.yellow-shine{
+    color:#ffd700;
+    font-family: "La Bella Aurore";
+    font-weight: 400;
+    font-size:3rem;
+    opacity:0.6;
+}

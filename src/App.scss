@@ -1,0 +1,112 @@
+$primar-color: #ffd700;
+
+@import 'animate.css';
+@font-face{
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica neue.ttf') format('opentype');
+}
+
+@font-face{
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/coolvetica rg.otf') format('opentype');
+}
+
+@font-face{
+  font-family: 'La Bella Aurore';
+  src: url('./assets/fonts/labellaaurora.ttf') format('opentype');
+}
+
+input,textarea{
+  font-family:"Helvetica Neue";
+}
+
+.head-tag{
+  font-size:3.0rem;
+  font-weight:400;
+  font-family:Coolvetica;
+  color:#fff;
+  & img{
+      position: relative;
+      top: 5px;
+      right: 2.5px;
+  }
+  &:before{
+      content:"<h1>";
+      color:#ffd700;
+      font-family: "La Bella Aurore";
+      font-weight: 400;
+      font-size:3rem;
+      opacity:0.6;
+  }
+  &:after{
+      content:"<h1/>";
+      color:#ffd700;
+      font-family: "La Bella Aurore";
+      font-weight: 400;
+      font-size:3rem;
+      opacity:0.6;
+  }
+}
+.dark-psheen{
+  color:#fff;
+  font-size:20px;
+  font-family:Coolvetica;
+  font-weight:400;
+  &:before{
+      content:"<p> ";
+      left:2px;
+      color:#ffd700;
+      font-family: "La Bella Aurore";
+      font-weight: 400;
+      font-size:3rem;
+      opacity:0.6;
+  }
+  &:after{
+      content:" </p>";
+      color:#ffd700;
+      font-family: "La Bella Aurore";
+      font-weight: 400;
+      font-size:3rem;
+      opacity:0.6;
+  }
+}
+.container{
+  position: fixed;
+  height: calc(100% - 120px);
+  overflow: scroll;
+  left: 60px;
+  padding:0 25px;
+  text-align:justify;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: calc(100% - 100px);
+  overflow-x: hidden;
+}
+.btn-block{
+  display: block;
+  width:100%;
+}
+.btn{
+  display: inline-block;
+  background:none;
+  border:solid #ffd700 2px;
+  color:#ffd700;
+  font-family: Coolvetica;
+  font-weight:300;
+  text-decoration:none;
+  cursor:pointer;
+  padding:10px;
+  font-size:20px;
+  opacity:0.8;
+  transition:all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  &:hover{
+      background:#ffd700;
+      color:#022c43;
+  }
+}
+.white{
+  font-family:Coolvetica;
+  color:#fff;
+  letter-spacing:2px;
+}

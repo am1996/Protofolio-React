@@ -1,0 +1,31 @@
+.stripe-container{
+    background-color: #fff;
+    padding:4px;
+    margin:5px;
+    width:250px;
+    border-radius: 30px;
+}
+.grid{
+    margin-bottom:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.stripe{
+    width:50%;
+    height:25px;
+    border-radius:50px;
+    color: black;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      #ffd700 10px,
+      #ffd700 20px
+    ),
+    linear-gradient(
+      to bottom,
+      #000,
+      #000
+    )
+  }

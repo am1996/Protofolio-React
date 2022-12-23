@@ -1,0 +1,39 @@
+form{
+    &:before{
+        content:"<form> ";
+        left:2px;
+        color:#ffd700;
+        font-family: "La Bella Aurore";
+        font-weight: 400;
+        font-size:3rem;
+        opacity:0.6;
+    }
+    &:after{
+        content:" </form>";
+        color:#ffd700;
+        font-family: "La Bella Aurore";
+        font-weight: 400;
+        font-size:3rem;
+        opacity:0.6;
+    }
+}
+.form-input{
+    border-radius: 5px;
+    padding:5px;
+    border:4px solid #4d4d4e;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Coolvetica;
+    transition: all 200ms ease;
+}
+.form-input:focus{
+    border-color:#181818;
+}
+.form-div{
+    padding:5px;
+    flex-grow:1;
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+}
